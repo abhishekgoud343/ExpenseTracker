@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#main-container {
+    background-color: bisque;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    padding-top: 10px;
+}
+
+.container {
+    background-color: aliceblue;
+    margin-inline: 45px;
+    padding-bottom: 15px;
+}
+
+.container input, textarea, button {
+    margin: 4px 20px;
+    padding: 6px;
+}
+
+#table-container {
+    text-align: center;
+    margin: 30px 20px 25px;
+    padding: 0px 20px 20px;
+    background-color: aquamarine;
+}
+
+table, th, td {
+    text-align: left;
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 5px;
+    max-width: fit-content; 
+}
+
+td:nth-child(1), :nth-child(3) {
+    text-align: center;
+}
